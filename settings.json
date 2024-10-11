@@ -1,0 +1,59 @@
+{
+  "workbench.iconTheme": "symbols",
+  "editor.fontFamily": "JetBrains Mono",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "workbench.activityBar.location": "hidden",
+  "git.openRepositoryInParentFolders": "always",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.tabSize": 2,
+  "editor.rulers": [80, 120],
+  "workbench.statusBar.visible": false,
+  "symbols.hidesExplorerArrows": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.fontLigatures": true,
+  "explorer.compactFolders": false,
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": false,
+  "intelephense.diagnostics.languageConstraints": false,
+  "intelephense.diagnostics.undefinedTypes": false,
+  "intelephense.diagnostics.undefinedMethods": false,
+  "intelephense.diagnostics.typeErrors": false,
+  "editor.minimap.enabled": false,
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "frame": false
+  },
+  "apc.header": {
+    "height": 36
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".pane-body": "padding: 8px",
+    ".pane-header": "padding: 0 8px",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".split-view-view:first-child .pane-header": "display: none !important",
+    ".monaco-list-row": "border-radius: 4px",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "postcss": "css"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "update.mode": "manual",
+  "workbench.productIconTheme": "fluent-icons",
+  "explorer.confirmDelete": false,
+  "redhat.telemetry.enabled": true,
+  "workbench.colorTheme": "Min Dark",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}
