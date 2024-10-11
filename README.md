@@ -1,3 +1,7 @@
+## Typography
+  <p> For the JetBrains Mono typography to work, you will need to download it.</p>
+  <p> At this link: <b>https://www.jetbrains.com/pt-br/lp/mono/#how-to-install</b> </p>
+
 ## Extensions
 
 <ul>
