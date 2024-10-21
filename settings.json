@@ -6,6 +6,10 @@
   "workbench.editor.labelFormat": "short",
   "workbench.activityBar.location": "hidden",
   "git.openRepositoryInParentFolders": "always",
+  "update.mode": "manual",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorTheme": "Min Dark",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
   "editor.tabSize": 2,
@@ -23,6 +27,10 @@
   "intelephense.diagnostics.undefinedMethods": false,
   "intelephense.diagnostics.typeErrors": false,
   "editor.minimap.enabled": false,
+  "explorer.confirmDelete": false,
+  "redhat.telemetry.enabled": true,
+  "explorer.fileNesting.enabled": true,
+  "go.toolsManagement.autoUpdate": true,
   "apc.electron": {
     "titleBarStyle": "hiddenInset",
     "frame": false
@@ -50,10 +58,16 @@
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
-  "update.mode": "manual",
-  "workbench.productIconTheme": "fluent-icons",
-  "explorer.confirmDelete": false,
-  "redhat.telemetry.enabled": true,
-  "workbench.colorTheme": "Min Dark",
-  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+  "files.associations": {
+    "*.page-template": "vue",
+    "*.layout-template": "vue",
+    "*.vue": "vue",
+    "*.module": "php" 
+  },
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  }
 }
