@@ -1,73 +1,83 @@
 {
-  "workbench.iconTheme": "symbols",
-  "editor.fontFamily": "JetBrains Mono",
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.renderLineHighlight": "gutter",
-  "workbench.editor.labelFormat": "short",
-  "workbench.activityBar.location": "hidden",
-  "git.openRepositoryInParentFolders": "always",
-  "update.mode": "manual",
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.colorTheme": "Min Dark",
-  "terminal.integrated.defaultProfile.windows": "Command Prompt",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.8,
-  "editor.tabSize": 2,
-  "editor.rulers": [80, 120],
-  "workbench.statusBar.visible": false,
-  "symbols.hidesExplorerArrows": false,
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
-  "editor.fontLigatures": true,
-  "explorer.compactFolders": false,
-  "editor.semanticHighlighting.enabled": false,
-  "breadcrumbs.enabled": false,
-  "intelephense.diagnostics.languageConstraints": false,
-  "intelephense.diagnostics.undefinedTypes": false,
-  "intelephense.diagnostics.undefinedMethods": false,
-  "intelephense.diagnostics.typeErrors": false,
-  "editor.minimap.enabled": false,
-  "explorer.confirmDelete": false,
-  "redhat.telemetry.enabled": true,
-  "explorer.fileNesting.enabled": true,
-  "go.toolsManagement.autoUpdate": true,
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "frame": false
-  },
-  "apc.header": {
-    "height": 36
-  },
-  "apc.listRow": {
-    "height": 24
-  },
-  "apc.stylesheet": {
-    ".title-label > h2": "display: none",
-    ".editor-actions": "display: none",
-    ".pane-body": "padding: 8px",
-    ".pane-header": "padding: 0 8px",
-    ".nosidebar .inline-tabs-placeholder": "width: 75px",
-    ".split-view-view:first-child .pane-header": "display: none !important",
-    ".monaco-list-row": "border-radius: 4px",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "postcss": "css"
-  },
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "files.associations": {
-    "*.page-template": "vue",
-    "*.layout-template": "vue",
-    "*.vue": "vue",
-    "*.module": "php" 
-  },
-  "explorer.fileNesting.patterns": {
-    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
-    "tailwind.config.*": "tailwind.config*, postcss.config*",
-    ".env.local": ".env*",
-    ".env": ".env*"
-  }
+    "workbench.iconTheme": "symbols",
+    "editor.fontFamily": "JetBrains Mono",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "workbench.activityBar.location": "hidden",
+    "git.openRepositoryInParentFolders": "always",
+    "update.mode": "manual",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.colorTheme": "Min Dark",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.tabSize": 2,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "workbench.statusBar.visible": false,
+    "symbols.hidesExplorerArrows": false,
+    "window.commandCenter": false,
+    "editor.fontLigatures": true,
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false,
+    "intelephense.diagnostics.languageConstraints": false,
+    "intelephense.diagnostics.undefinedTypes": false,
+    "intelephense.diagnostics.undefinedMethods": false,
+    "intelephense.diagnostics.typeErrors": false,
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": true,
+    "explorer.fileNesting.enabled": true,
+    "go.toolsManagement.autoUpdate": true,
+    "editor.stickyScroll.enabled": false,
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "frame": false
+    },
+    "apc.header": {
+        "height": 36
+    },
+    "apc.listRow": {
+        "height": 24
+    },
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        ".editor-actions": "display: none",
+        ".pane-body": "padding: 8px",
+        ".pane-header": "padding: 0 8px",
+        ".nosidebar .inline-tabs-placeholder": "width: 75px",
+        ".split-view-view:first-child .pane-header": "display: none !important",
+        ".monaco-list-row": "border-radius: 4px",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "postcss": "css"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "files.associations": {
+        "*.page-template": "vue",
+        "*.layout-template": "vue",
+        "*.vue": "vue",
+        "*.module": "php"
+    },
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, eslint*, docker*, .env*, .gitignore*, drizzle*,prettier*, tsconfig*, vite*, pnpm-*, bun*, nest*, package-lock*",
+        "tailwind.config.*": "tailwind.config*, postcss.config*",
+        "next.config.ts": "components.*",
+        "README.md": "LICENSE"
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "cursor.composer.collapsePaneInputBoxPills": true,
+    "git.enableSmartCommit": true
 }
